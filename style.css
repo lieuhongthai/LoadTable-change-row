@@ -1,0 +1,41 @@
+table {
+	border: solid green;
+	border-width: 2px 2px 1px 2px;
+	border-spacing: 0;
+	text-align: left;
+	width: 21vw;
+}
+
+tr {
+	height: 1.75em;
+}
+
+tbody tr {
+	background-color: pink;
+	transition: transform 1s;
+	transition-timing-function: ease-in-out;
+	transform: translateY(0px);
+}
+
+th {
+	text-align: center;
+	padding: 0.2em;
+	width: 7vw;
+	border-bottom: 1px solid green;
+	cursor: pointer;
+}
+
+td {
+	padding: 0.2em;
+	width: 7vw;
+	border: solid green;
+	border-width: 1px 0px 1px 0px;
+}
+
+tr td:nth-child(2) {
+	text-align: right;
+}
+
+tr td:nth-child(3) {
+	text-align: right;
+}
